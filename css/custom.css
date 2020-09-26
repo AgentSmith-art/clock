@@ -5,33 +5,29 @@ body{
 	align-items: center;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 42px;
-  background-color: #4b5d67;
+  background-color: black;
   }
-  img
-  {
-    max-width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-  }
+
   .heading2
   {
     color: #ebecf1;
     text-align: center;
     padding-top: 6%;
+    font-family: 'Share Tech Mono', monospace;
+  font-size: 6rem;
+  
   }
 
 
-.timenow{
-  font-family: 'Share Tech Mono', monospace;
-  margin-left: 30px ;
-}
 
 
 
-#hours,#minutes,#seconds,#day{
+#hours,#minutes,#seconds{
   font-family: 'Share Tech Mono', monospace;
   font-size: 6rem;
+  color: #4c4c4c;
 }
+
 #bhours,#bminutes,#bseconds{
   font-family: 'Share Tech Mono', monospace;
   font-size: 2rem;
@@ -41,4 +37,22 @@ body{
 {
   
   align-self: center;
+}
+
+#footer
+{
+  padding: 5% 15% 2% 15%;
+  background-color: white;
+}
+
+.navbar{
+  min-height:10px;
+}
+.navbar  a {
+  font-size: 1rem;
+}
+.navtitle
+{
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bold;
 }
