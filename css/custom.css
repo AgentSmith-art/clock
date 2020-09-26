@@ -5,7 +5,7 @@ body{
 	align-items: center;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 42px;
-  background-image: url(../img/p3.jpg);
+  background-color: #4b5d67;
   }
   img
   {
@@ -15,7 +15,7 @@ body{
   }
   .heading2
   {
-    color: black;
+    color: #ebecf1;
     text-align: center;
     padding-top: 6%;
   }
@@ -35,6 +35,7 @@ body{
 #bhours,#bminutes,#bseconds{
   font-family: 'Share Tech Mono', monospace;
   font-size: 2rem;
+  color: #ebecf1;
 }
 .container-fluid
 {
